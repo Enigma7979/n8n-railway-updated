@@ -9,4 +9,4 @@ RUN mkdir -p /opt/custom-modules \
 
 ENV NODE_PATH=/opt/custom-modules/node_modules
 
-USER node
+USER root
